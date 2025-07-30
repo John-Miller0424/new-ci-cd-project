@@ -13,3 +13,4 @@ runs:
   using: "composite"
   steps:
     - run: echo Deploying to S3 bucket...
+      shell: bash
