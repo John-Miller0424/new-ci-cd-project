@@ -1,0 +1,9 @@
+{
+  "name": "new-ci-cd-project",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "echo Lint passed",
+    "test": "node index.test.js",
+    "build": "echo Build successful"
+  }
+}

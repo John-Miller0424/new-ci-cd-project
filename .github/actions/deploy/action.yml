@@ -1,0 +1,15 @@
+name: "Deploy"
+description: "Fake deploy action"
+inputs:
+  artifact-name:
+    required: false
+  build-and-deploy-in-same-workflow:
+    required: false
+  inject-env-vars:
+    required: false
+  sentry-enabled:
+    required: false
+runs:
+  using: "composite"
+  steps:
+    - run: echo Deploying to S3 bucket...

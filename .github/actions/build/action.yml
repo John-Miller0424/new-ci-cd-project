@@ -1,0 +1,6 @@
+name: "Build"
+description: "Fake build action"
+runs:
+  using: "composite"
+  steps:
+    - run: echo Running build action...

@@ -1,0 +1,9 @@
+name: E2E Test
+
+on: workflow_call
+
+jobs:
+  test-e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Running E2E tests...
